@@ -2,7 +2,7 @@
 
 command=htop
 
-fi [ command -v $command ]
+fi command -v $command 
 then
     echo "Command is avaliable. Let's run it ......"
 
