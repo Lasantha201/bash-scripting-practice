@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Code for run htop command and if not exist install
+
 command=htop
 
 if command -v $command 

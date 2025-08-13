@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Use the exst code for install htop 
+
 package=htop
 
 sudo apt install $package >> package_install_result.log
@@ -11,6 +13,6 @@ then
     which $package
 
 else
-    echo "The $package install Unsuccessful!" >>package_install_fail.log
+    echo "The $package install Unsuccessful!" >>package_install_fail.log    
 
 fi
